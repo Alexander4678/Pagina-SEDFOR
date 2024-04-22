@@ -89,7 +89,7 @@ h1 {
 .card {
   background-color: #4169e1;
   width: 285px;
-  height: 390px;
+  height: 395px;
   border: 4px solid #1b1b1b23;
   align-items: center;
   border-radius: 15px;
@@ -115,3 +115,49 @@ h1 {
   padding: 10px;
 }
 
+.fondo2 {
+
+  background: url('../IMG/brad-pearson-F7jbx9JN7Us-unsplash.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 84vh;
+  display: flex;
+  color: #ffffff;
+  min-height: 30rem;
+  padding-top: 1rem;
+}
+
+.card-fondo2 {
+  display: flex;
+  margin: auto;
+}
+
+.card-body2 {
+  background-color: #11101067;
+  width: 600px;
+  height: 500px;
+  display: grid;
+  place-items: center;
+}
+
+.card-body2 img {
+  padding-top: 30px;
+  width: 170px;
+  height: 240px;
+}
+
+.fondo3 {
+
+  background: url('../IMG/blue_purple_tunnel_artistic_digital_art_stock_windows_11_purple_background_4k_hd_windows_11-2560x1440.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 84vh;
+  display: flex;
+  color: #ffffff;
+  min-height: 30rem;
+  padding-top: 1rem;
+}
