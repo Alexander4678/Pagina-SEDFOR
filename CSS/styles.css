@@ -2,6 +2,7 @@ body {
     background-color: #000000;
     width: 100%;
     color: #fff;
+    font-family: 'Roboto';
 }
 
 .navbar {
@@ -42,7 +43,7 @@ h1 {
     font-size: 3rem;
 }
 
-#Fotos h2 {
+#contact h2 {
     text-align: center;
     font-size: 2rem;
 }
@@ -75,7 +76,7 @@ h1 {
 .card-body {
     display: flex;
     flex-direction: column;
-    background-color: #111010ee;
+    background-color: #111010af;
     padding: 0 10% 10% 10%;
     text-align: center;
     justify-content: space-around;
@@ -86,13 +87,13 @@ h1 {
     min-width: 100%;
     width: 100%;
     padding: 0;
-    margin-top: -20px;
+    margin-top: -50px;
 }
 
 .card-body img {
+    display: flex;
     padding-top: 30px;
-    width: 170px;
-    height: 240px;
+    width: 30%;
 }
 
 .main-container .card-container {
@@ -112,8 +113,8 @@ h1 {
 .card-container {
     padding: 60px;
     margin: 0;
-    background: #6d115b;
-    background: linear-gradient(to right, #3232b6, #a87a17c5);
+    background: rgb(145, 125, 128);
+    background: linear-gradient(149deg, rgba(145, 125, 128, 1) 0%, rgb(18, 18, 205) 63%, rgba(240, 253, 255, 1) 89%);
     color: rgba(255, 255, 255, 0.603);
 }
 
@@ -187,18 +188,20 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px 0px 30px #000;
+    align-items: center;
+    padding-bottom: 40px;
+    justify-content: center;
     width: 100%;
     height: 84vh;
     display: flex;
-    color: #ffffff;
+    color: #e7e7e7;
     min-height: 30rem;
-    padding-top: 1rem;
-    justify-content: center;
+    padding-top: 12rem;
 }
 
 .fondo4 {
 
-    background: url('../IMG/madrid_spain_during_sunset_hd_travel.jpg');
+    background: url('../IMG/Aula\ de\ informatica\ 2.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
